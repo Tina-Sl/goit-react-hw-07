@@ -11,8 +11,6 @@ const SearchBox = () => {
     dispatch(changeSearch(e.target.value));
   };
 
-  // const  = useId();
-
   return (
     <div className={s.searchBox}>
       <label htmlFor="search-input" className={s.searchLabel}>
@@ -22,7 +20,6 @@ const SearchBox = () => {
           id="search-input"
           type="text"
           placeholder=""
-          // value={value}
           onChange={handleSelect}
         />
       </label>
